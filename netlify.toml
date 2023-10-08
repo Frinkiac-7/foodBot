@@ -1,6 +1,6 @@
 [build]
   publish = "dist/foodBot"
-  command = "ng build --prod"
+  command = "npm run build"
   functions = "./src/app/services/netlify"
 [[redirects]]
   from = "/*"
