@@ -1,7 +1,7 @@
 [build]
   publish = "dist/foodBot"
   command = "npm run build"
-  functions = "./src/app/services/netlify"
+  # functions = "./src/app/services/netlify"
 [[redirects]]
   from = "/*"
   to = "/index.html"
