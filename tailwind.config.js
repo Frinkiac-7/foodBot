@@ -5,9 +5,13 @@ module.exports = {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'homeImage': "url('assets/images/jason-leung-poI7DelFiVA-unsplash.jpg')",
+      }
+    },
   },
   plugins: [
-    require('flowbite/plugin'),
+    require('flowbite/plugin')
   ],
 };
