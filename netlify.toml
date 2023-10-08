@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/foodBot"
+  publish = "dist/food-bot"
   command = "npm run build"
   # functions = "./src/app/services/netlify"
 [[redirects]]
